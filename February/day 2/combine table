@@ -1,0 +1,6 @@
+SELECT P.firstName,
+       P.lastName,
+       A.city,
+       A.state
+FROM Person P, Address A
+WHERE P.personId = A.personId(+);
